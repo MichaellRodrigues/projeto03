@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background: #2c2b3d;
+
+  height: 720px;
+}
+
+.page {
+  width: 1090px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 65px;
+
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+h1 {
+  color: white;
+  line-height: 40px;
+  font-size: 35px;
+  font-weight: 700px;
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+p {
+  color: #c2c2c2;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 700px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+section {
+  width: 600px;
+  right: 0;
+}
+
+span {
+  color: #00bfa6;
+}
+.line {
+  width: 568px;
+  height: 0px;
+  border: 1px solid #00bfa6;
+  margin: 0 auto 27px;
+}
+footer {
+  color: white;
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500px;
+  margin-bottom: 23px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
